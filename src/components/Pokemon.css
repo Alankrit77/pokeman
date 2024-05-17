@@ -1,0 +1,115 @@
+:root {
+  --background-light: #ffffff;
+  --background-dark: #333333;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+  --liked-pokemon-bg-light: #e0dddd;
+  --liked-pokemon-bg-dark: #222222;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.app.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.pokemon-card {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+.liked-pokemon {
+  margin-top: 40px;
+}
+
+.pokemon-name {
+  margin-top: -3rem;
+}
+
+.liked-pokemon ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.liked-pokemon li {
+  margin: 20px;
+}
+
+.liked-pokemon-image {
+  padding: 13px 13px 40px 13px;
+}
+
+.liked-pokemon img {
+  width: 14rem;
+  height: 13rem;
+  margin: 10px;
+  border-radius: 2.75rem;
+  border: 3px solid black;
+  background-color: var(--liked-pokemon-bg-light);
+}
+
+.app.dark-mode .liked-pokemon img {
+  background-color: var(--liked-pokemon-bg-dark);
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.ability-box,
+.type-box {
+  margin-bottom: 20px;
+}
+
+.ability-button,
+.type-button {
+  background-color: #e0e0e0;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swipe {
+  display: flex;
+  justify-content: center;
+}

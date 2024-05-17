@@ -1,0 +1,89 @@
+/* General page styling */
+.image-page {
+  display: flex;
+  font-family: "Arial", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #333;
+}
+
+.dark-mode .card {
+  background-color: #444;
+}
+
+.dark-mode h1,
+.dark-mode p {
+  color: white;
+}
+
+/* Toggle button styling */
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+/* Card styling */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #28a745; /* Green border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Unique font family for h1 and p */
+h1 {
+  font-family: "Courier New", Courier, monospace; /* Unique font for h1 */
+}
+
+p {
+  font-family: "Georgia", serif; /* Unique font for p */
+}
+
+/* Instructions styling */
+.instructions {
+  margin: 20px 0;
+}
+
+.instructions p {
+  margin: 10px 0;
+}
+
+/* Navigation button styling */
+.navigate-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigate-button:hover {
+  background-color: #218838;
+}
